@@ -1,0 +1,48 @@
+section{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: -60px;
+}
+
+aside{
+    text-align:left;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: pre;
+    margin-bottom: -30px;
+}
+
+aside>a:link{
+    text-align: center;
+    border: 2px solid #003cb3;
+    border-radius: 5px;
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    color: #003cb3;
+    text-decoration: none;
+}
+
+aside>a:hover{
+    text-align: center;
+    border: 2px solid #003cb3;
+    border-radius: 5px;
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #003cb3;
+}
+
+aside>a:visited {
+    border: 2px solid #003cb3;
+}
