@@ -34,7 +34,7 @@ nav>a:link{
 	display: inline-block;
 	height: 35px;
 	width: 175px;
-	margin: 2px;
+	margin: 1px;
 	color: #003cb3;
 	text-decoration: none;
 }
@@ -46,7 +46,7 @@ nav>a:hover{
 	display: inline-block;
 	height: 35px;
 	width: 175px;
-	margin: 2px;
+	margin: 1px;
 	text-decoration: none;
 	color: #ffffff;
 	font-weight: bold;
