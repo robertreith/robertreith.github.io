@@ -7,7 +7,7 @@ section{
 }
 
 aside{
-    text-align:left;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
     overflow: auto;
@@ -23,7 +23,7 @@ aside>a:link{
     border-radius: 5px;
     display: inline-block;
     height: 25px;
-    width: 100px;
+    width: 650px;
     margin: 5px;
     color: #003cb3;
     text-decoration: none;
@@ -35,7 +35,7 @@ aside>a:hover{
     border-radius: 5px;
     display: inline-block;
     height: 25px;
-    width: 100px;
+    width: 650px;
     margin: 5px;
     text-decoration: none;
     color: #ffffff;
