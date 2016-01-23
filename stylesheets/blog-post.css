@@ -53,3 +53,14 @@ img{
 .italic{
     font-style: italic;
 }
+
+code{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 850px;
+    border:2px solid black; 
+    border-radius: 5px;
+    background-color: #ffffff;  
+}

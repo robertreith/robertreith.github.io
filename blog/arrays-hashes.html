@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <title>Bobby's website</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-post.css">
+</head>
+<body>
+
+  <header>
+      <h1>Bobby's DBC Experience</h1>
+  </header>
+
+  <nav>
+      <a href="../index.html">Home</a> 
+      <a href="#">About Me</a> 
+      <a href="#">Resume</a> 
+      <a href="#">Projects</a> 
+      <a href="#">Contact Me</a>
+  </nav>
+
+  <nav class="go-back">
+      <a href="../blog-template.html">Back to Blog Posts</a>
+  </nav>
+
+  <h1>Arrays and Hashes</h1>
+  <h2>1/23/2016</h2>
+
+  <article>
+    <p>
+    Arrays are an ordered collection of objects. Each object has as specific, consecutive index id starting with zero (0). There are a couple of different ways to create an array but my preferred method is called the literal array constructor (square brackets). To create a new array using the literal array constructor you first name the array (new_array) followed by an equal (=) sign then list the objects you want contained in the array in square brackets (['a', 'b', 'c', 'd', 'e']). Below is an example of what this array looks like written in Ruby code.
+    <br />
+    <code>new_array = ['a', 'b', 'c', 'd', 'e']</code>
+    </p>
+
+    <p>
+    As mentioned above, each object has a specific index assigned to it. For this example 'a' has an index of 0, 'b' an index of 1, 'c' an index of 2, 'd' an index of 3, and 'e' has an index of 4. To retrieve an object from the array the below syntax is used. In this example it is going to pull the fourth object ('d') because it is requesting index 3.
+    <br />
+    <code>new_array [3]</code>
+    </p>
+
+    <p>
+    To add objects to the array the below format is used. In this example it adds 'f' to the 5 index position.
+    <br />
+    <code>new_array [5] = 'f'</code>
+    </p>
+
+    <p>
+    Hashes are similar to arrays in that they are also a collection of objects. But unlike arrays with a constant numerical index starting with 0, hashes consist of key/value pairs. In hashes both the key and value can be any object, but the key must be unique within the hash. Meaning that there can't be duplicate objects as keys. For the values the objects can repeat. As with arrays there are a similar ways to create hashes. Currently my prefered method to create a new hash is the literal hash constructor (curly brackets). (Note the difference from arrays that use square brackets.) 
+    </p>
+
+    <p>
+    To create a new hash using the literal constructor you first name the hash (new_hash) followed by an equal (=) sign. Then list the key/value objects you want contained in the array in curly brackets using the following format ({'green' => 'grass',}). Below is an example of what this looks like with multiple key/value pairs written in Ruby code.
+    <br />
+    <code>new_hash = {'green' => 'grass', 'blue' => 'sky', 'red' => 'fire', 'brown' => 'dirt'}
+    </code>
+    </p>
+
+    <p>
+    As mentioned above each value object has a specific key object assigned to it. For the example above 'grass' has a key of 'green', 'sky' has a key of 'blue', 'fire' has a key of 'red', and 'dirt' has a key of 'brown'. To retrieve a value object from the hash the below syntax is used. In this example it is going to pull the 'sky' value because it is requesting the key 'blue'.
+    <br />
+    <code>new_hash['blue']</code>
+    </p>
+
+    <p>
+    To add a key/value pair to the hash the below format is used. In this example it adds the key 'black' with the value of 'asphalt' to the above hash .
+    <br />
+    <code>new_hash['black'] = 'asphalt'</code>
+    </p>
+
+    <p>
+    There is much more detail to both arrays and hashes, but this was created to describe the two classes and some of the basic mechanics behind them.
+    </p>
+  </article>
+
+</body>
+</html>
