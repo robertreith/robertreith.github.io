@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <title>Bobby's website</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-post.css">
+</head>
+<body>
+
+  <header>
+      <h1>Bobby's DBC Experience</h1>
+  </header>
+
+  <nav>
+      <a href="../index.html">Home</a> 
+      <a href="#">About Me</a> 
+      <a href="#">Resume</a> 
+      <a href="#">Projects</a> 
+      <a href="../contact.html">Contact Me</a>
+  </nav>
+
+  <nav class="go-back">
+      <a href="../blog-template.html">Back to Blog Posts</a>
+  </nav>
+
+  <h1>The map method</h1>
+  <h2>1/31/2016</h2>
+
+  <article>
+    <p>
+    There are many great enumerable methods available to use. The one that I am going to focus on in this post is the #map method. The #map method works by going through each value in an array, one value at a time and applying the code block to the value. The #map method will create a new array consisting of the results of the new values. One of the most important things to remember when using this method is that it returns an array. To better illustrate how this works let's look at the example below:
+    </p>
+    <p> 
+    First we are going to take a collection of flowers(array).
+
+    <code>flowers = ['rose','tulip','daisy','sunflower','daffodil','lily','iris']</code>
+    </p>
+    <p>
+    Now we are going to apply the #map method to this array to capitalize each type of flower.
+
+    <code>flowers.map {|flower| flower.capitalize}</code>
+    </p>
+    <p>
+    As you can see above, the #map method is applied to the array by placing it after the array name(flowers) with a ‘.’ separating the two. The part following #map is called “the code block”. The code block has important information that #map needs to execute the task of capitalizing each type of flower. Inside the curly brackets is the element (|flower|) that #map will evaluate each time. After the element is identified, the following code “flower.capitalize” tells map what to do to the element, in this case capitalize the element.
+    </p>
+    <p>
+    When this example is executed the below array is returned:
+
+    <code>=> ["Rose", "Tulip", "Daisy", "Sunflower", "Daffodil", "Lily", "Iris"]</code>
+    </p> 
+  </article>
+
+</body>
+</html>
