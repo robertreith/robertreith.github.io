@@ -1,0 +1,14 @@
+section {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+article{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15px;
+}
