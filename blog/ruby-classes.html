@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+  <title>Bobby's website</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-post.css">
+</head>
+<body>
+
+  <header>
+      <h1>Bobby's DBC Experience</h1>
+  </header>
+
+  <nav>
+      <a href="../index.html">Home</a> 
+      <a href="../about.html">About</a> 
+      <a href="#">Resume</a> 
+      <a href="#">Projects</a> 
+      <a href="../contact.html">Contact</a>
+  </nav>
+
+  <nav class="go-back">
+      <a href="../blog-template.html">Back to Blog Posts</a>
+  </nav>
+
+  <h1>Ruby Class Example</h1>
+  <h2>2/7/2016</h2>
+
+  <article>
+    <p>
+    In this post we are going to look at a simple class example to go over the class instance variables and how new objects are created using the class. In the below example a class has been created to return an employee's name, age, and title at work.
+    </p>
+    <pre><code>
+    class Person
+        
+        def initialize(name,age,title)
+            @name = name
+            @age = age
+            @title = title
+        end
+        
+        def name
+            @name
+        end
+        
+        def age
+            @age
+        end
+        
+        def title
+            @title
+        end
+        
+        def status
+            puts "#{@name} is #{@age} and the #{@title} at ABC Marketing."
+        end
+    end
+
+    employee1 = Person.new('Mike', 37, 'Vice President')
+    employee2 = Person.new('Doug', 33, 'HR Coordinator')
+
+    p employee1.status => Mike is 37 and the Vice President at ABC Marketing.
+    p employee2.title => "HR Coordinator"
+    </code></pre>
+    <p>
+    To break this example down, we will start from the top. The first thing needed to create a class is a name. To create this you start with the word 'class' followed by the class name capitalized ('Person').
+    </p>
+    <code> class Person</code>
+    <p>
+    After the class is created it is followed by the instance methods. The first method created is the "initialize" method. This used to put default values to the instance variable. Instance variables differ from local variables because they can be accessed by all methods within a class. To differentiate them from local variables they start with an '@'' symbol. In the above example there are 3 instance variables created: @name = name, @age = age, @title = title.
+    </p>
+     <pre><code> 
+      def initialize(name,age,title)
+            @name = name
+            @age = age
+            @title = title
+        end
+    </code></pre>
+    <p>
+    The three methods that follow the initialize method define each local variable.
+    </p>
+    <pre><code>
+        def name
+            @name
+        end
+        
+        def age
+            @age
+        end
+        
+        def title
+            @title
+        end
+    </code></pre>
+    <p>
+    The last method has been created to take the employee information and return it in a sentence so it is all in one place.
+    </p>
+    <pre><code>
+        def status
+            puts "#{@name} is #{@age} and the #{@title} at ABC Marketing."
+        end
+    </code></pre>
+    <p>
+    To create a new object for this class, you create the name of the object (ex. employee1) and set it equal to the class Name.new wth the infomation in parenthesis. There are 2 examples below showing how to create 2 employees.
+    </p>
+    <pre><code>
+    employee1 = Person.new('Mike', 37, 'President')
+    employee2 = Person.new('Doug', 33, 'HR Coordinator')
+    </code></pre>
+    <p>
+    To call the information for the employees you take the method name from the class and add it after the new object with a '.'. There are 2 examples below showing the return values for each.
+    </p>
+    <pre><code>
+    employee1.status => Mike is 37 and the Vice President at ABC Marketing.
+    p employee2.title => "HR Coordinator"
+    </code></pre>
+  </article>
+
+</body>
+</html>

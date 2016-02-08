@@ -64,6 +64,10 @@ img{
     font-style: italic;
 }
 
+pre>code{   
+    text-align: left;
+}
+
 code{
     display: block;
     text-align: center;
