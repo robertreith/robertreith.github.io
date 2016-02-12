@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <title>Bobby's website</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-post.css">
+</head>
+<body>
+
+  <header>
+      <h1>Bobby's DBC Experience</h1>
+  </header>
+
+  <nav>
+      <a href="../index.html">Home</a> 
+      <a href="../about.html">About</a> 
+      <a href="#">Resume</a> 
+      <a href="#">Projects</a> 
+      <a href="../contact.html">Contact</a>
+  </nav>
+
+  <nav class="go-back">
+      <a href="../blog-template.html">Back to Blog Posts</a>
+  </nav>
+
+  <h1>Ruby Hashes vs. JavaScript Objects</h1>
+  <h2>2/11/2016</h2>
+
+  <article>
+    <p>
+      This post is going to focus on one of the differences between the Ruby language and the JavaScript language. That difference is Ruby hashes vs. JavaScript objects. To start off let's look at an example of a Ruby hash and go over the basics.
+    </p>
+    
+    <pre><code>
+      house = {
+          "style" => "Cape Cod",
+          "bedrooms" => 5,
+          "bathrooms" => 3,
+          "pool" => "yes",
+          "waterfront" => "yes",
+      }
+    </code></pre>
+
+    <p>
+      In the above example a hash was created to store values of a house. A Ruby hash contains what's called key/value pairs. In this case the keys are attributes of a house and the values are the specifics for the house. To access the value information within the hash you would use the below syntax which will return "Cape Cod".
+    </p>
+
+    <code>
+      house["style"]
+    </code>
+
+    <p>
+      In JavaScript it's a little different. Below you will find an example of a JavaScript object. (I used the same data as the Ruby hash to show only the differences in format between the two languages)
+    </p>
+
+    <pre><code>
+      var house = {
+          style: "Cape Cod",
+          bedrooms: 5,
+          bathrooms: 3,
+          pool: "yes",
+          waterfront: "yes",
+      }
+    </code></pre>
+
+    <p>
+      At first glance the JavaScript object looks similar to a Ruby hash. Looking into it deeper though there are some pretty significant differences. Starting from the top, "var" must be used to create the variable for house. the next difference noticed is the way the values are entered. In an object, the values are written as name:value pairs and are called properties. In the above example "style" is a property and "Cape Cod" is the property value.  Also, the properties do not have quotations, only the property values need them if that value is a string. To access a property value in an object the below syntax is used.
+    </p> 
+
+    <code>
+      house.style
+    </code>
+
+    <p>
+      This will return "Cape Cod". Note that when accessing a property value in an object there is only a '.' between the object name and the property.
+    </p>
+
+    <p>
+      There are many additional differences between Ruby hashes and JavaScript objects but this post was created to highlight the visual differences and how the data within each are accessed.
+    </P>
+  </article>
+
+</body>
+</html>
