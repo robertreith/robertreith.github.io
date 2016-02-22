@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Bobby's Website</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css">
+  </head>
+  <body>
+  
+    <header>
+      <h1>Bobby's DBC Experience</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a> 
+        <a href="../about.html">About</a>  
+        <a href="../blog-index.html">Blog</a>
+        <a href="../project-index.html">Projects</a>
+        <a href="../resume.html">Resume</a>
+        <a href="../contact.html">Contact</a>
+    </nav>
+
+    <section>
+      <h2>The Basics Cheat Sheet</h2>
+    </section>   
+
+    <article class="git">
+      <h3>Git</h3>
+      <h4>Cloning a Repo</h4>
+      This is done in the command line on your computer: 
+        <ul>
+          <li>The first step is to copy the clone URL link on the GitHub website</li>
+          <li>In the terminal navigate to the directory where the repo will be cloned</li>
+          <li>Enter command "git clone COPIED URL"</li>
+          <li>Confirm clone was done by using command "ls". This will show a list of folders in the directory</li>
+        </ul> 
+      <h4>Pushing to Remote Repository</h4>  
+      Once file is updated and saved in the text editor use the following git commands to send the updated work to GitHub:
+        <ul>
+          <li>git status</li>
+          <li>git add .</li>
+          <li>git commit -m "Commit message."</li>
+          <li>git push origin feature-branch</li>
+          <li>go to GitHub to accept pull request. Follow prompts on website</li>
+        </ul>
+
+      <h4>Pulling from Remote Repository</h4>  
+      Go back to command line and pull recent changes from remote repository. Use the following commands
+        <ul>   
+          <li>git checkout master</li>
+          <li>git pull origin master</li>
+        </ul>
+      Check git status to make sure everything is up to date with command: git status and if feature branch is no longer needed, delete using command: git branch -d "feature-branch-name"
+    </article>
+
+    <article class="html">
+      <h3>HTML</h3>
+      <h4>Basic HTML Structure</h4>     
+    <pre><code>
+      &lt;html&gt;
+        &lt;head&gt;
+          &lt;title&gt; website title &lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          <span>content of website ...</span>
+        &lt;/body&gt;
+      &lt;/html&gt;
+      </code></pre>
+      <h4>Basic Tags</h4>
+        <p class="par-spacing">
+          <code>&lt;html&gt;&lt;/html&gt;</code> Creates an HTML document<br>
+          <code>&lt;head&gt;&lt;/head&gt;</code> Sets the title and other info that isn't displayed on the page itself<br>
+          <code>&lt;title&gt;&lt;/title&gt;</code> Defines a title in the browser toolbar<br>
+          <code>&lt;body&gt;&lt;/body&gt;</code> Sets off the visible portion of the document
+        </p>
+      <h4>Text Tags</h4>
+        <p class="par-spacing">
+          <code>&lt;pre&gt;&lt;/pre&gt;</code> Creates preformatted text<br>
+          <code>&lt;hl&gt;&lt;/hl&gt;</code> Creates the largest headline<br>
+          <code>&lt;h6&gt;&lt;/h6&gt;</code> Creates the smallest headline<br>
+        </p>
+      <h4>Links</h4>
+        <p class="par-spacing">
+          <code>&lt;a href="URL"&gt;&lt;/a&gt;</code> Creates a hyperlink<br>
+          <code>&lt;a href="mailto:EMAIL"&gt;&lt;/a&gt;</code> Creates a mailto link<br>
+          <code>&lt;a href="URL"&gt;&lt;img src="URL"&gt;&lt;/a&gt;</code> Creates an image/link
+        </p>
+      <h4>Formatting</h4>
+        <p class="par-spacing">
+          <code>&lt;p&gt;&lt;/p&gt;</code> Creates a new paragraph<br>
+          <code>&lt;br&gt;</code> Inserts a line break<br>
+          <code>&lt;ol&gt;&lt;/ol&gt;</code> Creates a numbered list<br>
+          <code>&lt;ul&gt;&lt;/ul&gt;</code> Creates a bulleted list<br>
+          <code>&lt;li&gt;&lt;/li&gt;</code> Each list item. Adds number/symbol depending on list selected<br>
+          <code>&lt;img src="name"&gt;</code> Adds an image
+        </p>
+    </article>
+  </body>
+</html>

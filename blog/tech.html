@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bobby's website</title>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-index.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-post.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Bobby's DBC Experience</h1>
+    </header>
+
+    <nav>
+      <a href="../index.html">Home</a> 
+      <a href="../about.html">About</a>  
+      <a href="../blog-index.html">Blog</a>
+      <a href="../project-index.html">Projects</a>
+      <a href="../resume.html">Resume</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+
+    <nav class="go-back">
+      <a href="../blog-index.html">Back to Blog Posts</a>
+    </nav>
+
+    <h1>Test-Driven Development</h1>
+    <h2>2/19/2016</h2>
+
+    <article>
+      <p>
+        This post will focus on a high overview of what Test-Driven Development is, the process to use it, and why it is beneficial.
+      </p>
+      <p>
+        To get started Test-Driven Development is a software development approach in which a test is written before writing the code. The initially failing test defines what the code should accomplish. Once this is done the developer will write the minimum amount of code to pass that test. Once the test is passed the initial code is refactored to insure it is DRY (don't repeat yourself). This process is repeated as many times as necessary until the overall goal of the code is achieved.
+      </p>
+      <p>
+        To break the process down a little further there are 6 basic steps to Test-Driven Development:
+      </p> 
+        <ul>
+          <li><span class="tech_step">Step 1:</span><span class="tech_title"> Create The Test</span> This is crucial before any code is written. The test is to show a clear understanding of the requirements that need to be accomplished.</li>
+          <li><span class="tech_step">Step 2:</span><span class="tech_title"> Run Test</span> This is to confirm that the test will not automatically pass without any new code written.</li>
+          <li><span class="tech_step">Step 3:</span><span class="tech_title"> Write The Code</span> The code does not need to be perfect, it just needs meet the requirements.</li>
+          <li><span class="tech_step">Step 4:</span><span class="tech_title"> Run The Test</span> This is to insure the initial code passes the specified requirements.</li>
+          <li><span class="tech_step">Step 5:</span><span class="tech_title"> Refactor The Code</span> This is the time to go back and clean up the code. One should remove any duplication(DRY) and make sure the code is clear.</li>
+          <li><span class="tech_step">Step 6:</span><span class="tech_title"> Repeat</span> The process is repeated with a new test for the next specification.</li>
+          </ul>
+      <p>
+        This is a beneficial way to write code because using this method allows the developer to focus on writing only the code necessary to pass the test. This in turn translates to cleaner and more readable code. With testing being implemented from the beginning, it can also minimize additional time and money spent to debug later in the software's lifecycle.
+      </p>
+    </article>
+  </body>
+</html>
