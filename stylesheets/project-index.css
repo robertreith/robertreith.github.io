@@ -23,7 +23,8 @@ aside>a:link{
     width: 150px;
     margin: 5px;
     color: #003cb3;
-    text-decoration: none
+    text-decoration: none;
+    background-color: #b3b3b3;
 }
 
 aside>a:hover{

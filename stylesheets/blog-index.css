@@ -12,7 +12,7 @@ aside{
     font-weight: bold;
     overflow: auto;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 4%;
     white-space: pre;
     margin-bottom: -30px;
 }
@@ -27,6 +27,7 @@ aside>a:link{
     margin: 5px;
     color: #003cb3;
     text-decoration: none;
+    background-color: #b3b3b3;
 }
 
 aside>a:hover{

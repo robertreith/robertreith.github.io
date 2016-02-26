@@ -1,5 +1,5 @@
 html{
-	background-image: URL("http://spab-rice.com/codecanyon/elegantcarousel/files/images/background_grey.jpg");
+	background-image: URL("../imgs/light-grey-background-pattern.jpg");
 	background-size: cover;
 }
 
@@ -36,6 +36,7 @@ nav>a:link{
 	margin: 1px;
 	color: #003cb3;
 	text-decoration: none;
+	background-color:#b3b3b3;
 }
 
 nav>a:hover{
@@ -79,7 +80,7 @@ footer{
     bottom:0px;
     height:30px;
     width:100%;
-    background:#999999;
+    background:#b3b3b3;
 }
 
 footer a:hover{

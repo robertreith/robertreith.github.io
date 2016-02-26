@@ -44,12 +44,7 @@ article.git{
 article.html{
 	width: 49%;
 	float: right;
-}
-
-article.ruby{
-	display: inline-block;
-	width: 100%;
-	margin-top: 20px;
+	margin-bottom: 1%;
 }
 
 code{
