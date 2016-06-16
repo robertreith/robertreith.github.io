@@ -39,7 +39,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -405,4 +405,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+
+.devicon {
+  font-size: 75px;
+  color: #f05f40;
 }
