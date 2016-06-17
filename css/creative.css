@@ -15,7 +15,7 @@ body {
 hr {
   border-color: #f05f40;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 100px;
 }
 hr.light {
   border-color: white;
@@ -406,9 +406,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
-
-
 .devicon {
-  font-size: 75px;
+  font-size: 90px;
   color: #f05f40;
 }
